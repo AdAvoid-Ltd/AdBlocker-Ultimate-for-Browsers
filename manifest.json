@@ -110,6 +110,7 @@
     ],
     "minimum_chrome_version": "21.0",
     "permissions": [
+        "alarms",
         "tabs",
         "<all_urls>",
         "webRequest",
