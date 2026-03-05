@@ -1,0 +1,13 @@
+/**
+ * Rate-us popup iframe container styles (injected into web page).
+ */
+.rate-us-iframe {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 265px;
+  height: 415px;
+  border: none;
+  z-index: 2147483647;
+  overflow: hidden;
+}

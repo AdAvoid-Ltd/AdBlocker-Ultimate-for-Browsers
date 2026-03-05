@@ -1,2 +1,4 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# For this filetypes convert CRLF to LF
+*.js    text
+*.css   text
+*.html  text

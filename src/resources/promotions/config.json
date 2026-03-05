@@ -1,0 +1,14 @@
+[
+  {
+    "id": "holiday-2025",
+    "nameKey": "promo_holiday_name",
+    "startDate": "2025-12-23",
+    "endDate": "2026-01-02",
+    "buttonTextKey": "promo_button",
+    "linkUrl": "https://adblockultimate.net/upgrade",
+    "backgroundImage": "winter-background.png",
+    "iconImage": "group-203.png",
+    "actionIcon": "abu-icon.png",
+    "titleKey": "promo_holiday_title"
+  }
+]

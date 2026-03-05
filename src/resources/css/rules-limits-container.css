@@ -1,0 +1,13 @@
+/**
+ * Styles for rules limits popup iframe container.
+ * Injected into web page to position the popup.
+ */
+
+.rules-limits-iframe {
+    color-scheme: none;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border: none;
+    width: 376px;
+}

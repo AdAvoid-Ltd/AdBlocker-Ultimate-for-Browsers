@@ -1,0 +1,485 @@
+{
+    "name": {
+        "message": "ABU MV3 Experimental"
+    },
+    "description": {
+        "message": "Experimental version of unmatched adblock extension built on Manifest V3."
+    },
+    "popup_protection_enabled_status": {
+        "message": "Protection is enabled"
+    },
+    "popup_protection_enabled_refresh": {
+        "message": "Protection is enabled <button>Refresh the page<\/button> to apply changes"
+    },
+    "popup_protection_disabled_status": {
+        "message": "Protection is disabled"
+    },
+    "popup_protection_secure_page": {
+        "message": "Secure page"
+    },
+    "popup_blocked_on_this_page": {
+        "message": "blocked on this page"
+    },
+    "popup_report_site_option": {
+        "message": "Report a website"
+    },
+    "popup_steps_experimental_title": {
+        "message": "Experimental"
+    },
+    "popup_steps_experimental_description": {
+        "message": "Our alchemists know the ways to tame the MV3 challenges. Now Adblocker Ultimate works with Manifest V3."
+    },
+    "popup_steps_new_tech_title": {
+        "message": "Innovative"
+    },
+    "popup_steps_new_tech_description": {
+        "message": "We use top-notch approaches to adapt to the rapidly evolving and still improving MV3 framework."
+    },
+    "popup_steps_fast_work_title": {
+        "message": "Fast"
+    },
+    "popup_steps_fast_work_description": {
+        "message": "We’ve increased Adblocker Ultimate’s performance by refactoring our content-blocking libraries and using MV3 features."
+    },
+    "popup_steps_v3_manifest_title": {
+        "message": "Manifest V3"
+    },
+    "popup_steps_v3_manifest_description": {
+        "message": "You might notice only one result of Adblocker Ultimate’s transition to MV3: even better performance."
+    },
+    "popup_learn_more_link": {
+        "message": "Learn more"
+    },
+    "popup_skip_wizard": {
+        "message": "Skip"
+    },
+    "popup_wizard_next_button": {
+        "message": "Next"
+    },
+    "popup_wizard_start_button": {
+        "message": "Shields up!"
+    },
+    "options_block_ads_option": {
+        "message": "Block ads"
+    },
+    "options_block_annoyances_option": {
+        "message": "Block annoyances"
+    },
+    "options_block_annoyances_option_desc": {
+        "message": "Remove pop-ups and floating elements"
+    },
+    "options_block_trackers_option": {
+        "message": "Block trackers"
+    },
+    "options_block_trackers_option_desc": {
+        "message": "Remove tracking cookies"
+    },
+    "options_block_social_widgets_option": {
+        "message": "Block social widgets"
+    },
+    "options_block_social_widgets_option_desc": {
+        "message": "Remove social widget buttons"
+    },
+    "options_languages_option": {
+        "message": "Language-specific filters"
+    },
+    "options_languages_option_desc": {
+        "message": "Remove ads for language-specific websites"
+    },
+    "options_languages_option_header_desc": {
+        "message": "Block ads for websites in these languages"
+    },
+    "options_languages_english": {
+        "message": "English"
+    },
+    "options_base_filter": {
+        "message": "Adblocker Ultimate Base filter"
+    },
+    "options_custom_filters_option": {
+        "message": "Custom filters"
+    },
+    "options_custom_filters_option_desc": {
+        "message": "Add custom filters based on Adblocker Ultimate filtering rules"
+    },
+    "options_static_filters_limits_by_rules": {
+        "message": "You’ve reached the limit of active built-in rules. To activate new rules, disable some built-in filters. <newline><\/newline> <link-to-limits>Rule limits<\/link-to-limits>"
+    },
+    "options_static_filters_limits_by_filters": {
+        "message": "You’ve reached the limit of active built-in filters. %current-enabled% of %maximum% built-in filters are enabled. <newline><\/newline> <link-to-limits>Rule limits<\/link-to-limits>"
+    },
+    "options_static_filters_limits_by_filters_notification": {
+        "message": "You’ve reached the limit of active built-in filters. Disable some built-in filters before activating new ones. <newline><\/newline> <link-to-limits>Rule limits<\/link-to-limits>"
+    },
+    "options_static_filters_limits_by_regexp": {
+        "message": "You’ve reached the limit of active built-in regex rules. %current-enabled% of %maximum% built-in filters are enabled. <newline><\/newline> <link-to-limits>Rule limits<\/link-to-limits>"
+    },
+    "options_static_filters_limits_after_update": {
+        "message": "The browser has modified the list of active built-in filters. <newline><\/newline> <link-to-limits>See details<\/link-to-limits>"
+    },
+    "options_dynamic_rules_limit": {
+        "message": "You’ve reached the limit of user-added rules. %current-enabled% of %maximum% rules are enabled. Rules over the threshold are not active. <newline><\/newline> <link-to-limits>Rule limits<\/link-to-limits>"
+    },
+    "options_dynamic_rules_regexps_limit": {
+        "message": "You’ve reached the limit of user-added regex rules. %current-enabled% of %maximum% regex rules are enabled. Rules over the threshold are not active. <newline><\/newline> <link-to-limits>Rule limits<\/link-to-limits>"
+    },
+    "options_dynamic_rules_limit_on_page": {
+        "message": "You’ve reached the limit of user-added rules. %current-enabled% of %maximum% rules are enabled. Rules over the threshold are not active."
+    },
+    "options_dynamic_rules_regexps_limit_on_page": {
+        "message": "You’ve reached the limit of user-added regex rules. %current-enabled% of %maximum% regex rules are enabled. Rules over the threshold are not active."
+    },
+    "options_filter_rules_counter": {
+        "message": "| <count\/> rule | <count\/> rules"
+    },
+    "options_user_rules_option": {
+        "message": "User rules"
+    },
+    "options_user_rules_option_editor": {
+        "message": "User rules editor"
+    },
+    "options_user_rules_option_desc": {
+        "message": "Add custom user rules"
+    },
+    "options_nav_link_general": {
+        "message": "Settings"
+    },
+    "options_nav_link_about": {
+        "message": "About"
+    },
+    "options_nav_link_rule_limits": {
+        "message": "Rule limits"
+    },
+    "options_works_with_v3": {
+        "message": "Works with Manifest <span>V3<\/span>"
+    },
+    "options_block_ads_on_website": {
+        "message": "Block ads on this website"
+    },
+    "options_open_settings": {
+        "message": "Adblocker Ultimate settings"
+    },
+    "options_settings_title": {
+        "message": "Settings"
+    },
+    "options_about_title": {
+        "message": "About"
+    },
+    "options_about_product": {
+        "message": "Adblocker Ultimate Browser extension MV3"
+    },
+    "options_about_version": {
+        "message": "Version"
+    },
+    "options_privacy_policy": {
+        "message": "Privacy Policy"
+    },
+    "options_acknowledgment": {
+        "message": "Acknowledgments"
+    },
+    "options_github": {
+        "message": "GitHub"
+    },
+    "options_site": {
+        "message": "Official website"
+    },
+    "options_discuss": {
+        "message": "Discuss Adblocker Ultimate"
+    },
+    "options_about_rights_reserved": {
+        "message": "All rights reserved."
+    },
+    "options_notice_program": {
+        "message": "This extension is an experimental project by the Adblocker Ultimate team"
+    },
+    "options_notice_compare_link": {
+        "message": "Learn more"
+    },
+    "popup_settings_pause_protection": {
+        "message": "Pause protection"
+    },
+    "popup_settings_report_issue": {
+        "message": "Report an issue"
+    },
+    "popup_settings_pause_protection_temporarily": {
+        "message": "Pause for %count% seconds"
+    },
+    "popup_settings_disable_site_temporarily": {
+        "message": "Disable on this website for %count% seconds"
+    },
+    "popup_protection_is_paused": {
+        "message": "Protection is disabled"
+    },
+    "popup_protection_will_be_resumed_after": {
+        "message": "Resuming in %count% sec"
+    },
+    "popup_protection_paused_for_all": {
+        "message": "for all websites"
+    },
+    "popup_protection_resume_now": {
+        "message": "Resume now"
+    },
+    "popup_limits_warning": {
+        "message": "The browser has modified the list of active built-in filters."
+    },
+    "popup_limits_warning_link": {
+        "message": " See details"
+    },
+    "context_menu_disable_filtering_on_site": {
+        "message": "Disable filtering on this site"
+    },
+    "context_menu_enable_filtering_on_site": {
+        "message": "Enable filtering on this site"
+    },
+    "context_menu_block_ads_on_site": {
+        "message": "Block ads on this website..."
+    },
+    "context_menu_report_an_issue": {
+        "message": "Report an issue..."
+    },
+    "context_menu_open_options": {
+        "message": "Adblocker Ultimate settings..."
+    },
+    "context_menu_disable_blocking": {
+        "message": "Pause Adblocker Ultimate protection"
+    },
+    "context_menu_enable_blocking": {
+        "message": "Enable Adblocker Ultimate protection"
+    },
+    "options_add_custom_filter": {
+        "message": "Add custom filter"
+    },
+    "options_custom_filter_modal_remove_button": {
+        "message": "Delete"
+    },
+    "options_custom_filter_modal_add_title": {
+        "message": "Add custom filter"
+    },
+    "options_custom_filter_add_label_name": {
+        "message": "Name"
+    },
+    "options_custom_filter_add_label_type": {
+        "message": "Type"
+    },
+    "options_custom_filter_add_label_rule": {
+        "message": "Rule"
+    },
+    "options_custom_filter_add_label_description": {
+        "message": "Description"
+    },
+    "options_custom_filter_modal_edit_title": {
+        "message": "Edit filter name"
+    },
+    "options_custom_filter_modal_removed": {
+        "message": "Permanently delete this filter?"
+    },
+    "options_custom_filter_modal_removed_desc": {
+        "message": "Deleted filters cannot be recovered"
+    },
+    "options_custom_filter_modal_save_changes": {
+        "message": "Save changes?"
+    },
+    "options_custom_filter_modal_confirm_cancel_button": {
+        "message": "Cancel"
+    },
+    "options_custom_filter_modal_confirm_save_button": {
+        "message": "Save"
+    },
+    "options_custom_filter_modal_add_add_button": {
+        "message": "Add"
+    },
+    "options_custom_filter_modal_retry_title": {
+        "message": "Failed to import file"
+    },
+    "options_custom_filter_modal_retry_button": {
+        "message": "Back"
+    },
+    "options_custom_filter_modal_retry_description": {
+        "message": "The file may be damaged or have the wrong format."
+    },
+    "options_custom_filter_modal_url_already_uploaded": {
+        "message": "The filter at this URL has already been uploaded."
+    },
+    "options_custom_filter_modal_add_browse_button": {
+        "message": "Browse"
+    },
+    "options_custom_filter_add_notification": {
+        "message": "The rule %name% has been added"
+    },
+    "options_user_rule_add_user_rule": {
+        "message": "Add a user rule"
+    },
+    "options_user_rule_open_editor": {
+        "message": "Open editor"
+    },
+    "options_user_rule_status_website_blocked": {
+        "message": "Domain is blocked"
+    },
+    "options_user_rule_status_website_allowed": {
+        "message": "Domain is unblocked"
+    },
+    "options_user_rule_status_element_blocked": {
+        "message": "Element is blocked"
+    },
+    "options_user_rule_status_custom_rule": {
+        "message": "Custom rule"
+    },
+    "options_user_rule_wizard_custom": {
+        "message": "Custom"
+    },
+    "options_user_rule_wizard_blocking": {
+        "message": "Block domain"
+    },
+    "options_user_rule_wizard_unblocking": {
+        "message": "Add domain to allowlist"
+    },
+    "options_user_rule_delete": {
+        "message": "Delete"
+    },
+    "options_user_rule_save": {
+        "message": "Save"
+    },
+    "options_user_rule_block_domain": {
+        "message": "Domain name"
+    },
+    "options_user_rule_block_all_subdomains": {
+        "message": "Block all subdomains"
+    },
+    "options_user_rule_wrong_domain_format": {
+        "message": "Wrong domain format"
+    },
+    "options_user_rule_unblock_subrequests": {
+        "message": "Unblock requests from this address"
+    },
+    "options_user_rule_unhide_elements": {
+        "message": "Do not apply cosmetic rules"
+    },
+    "options_user_rule_removing_elements": {
+        "message": "Do not apply advanced rules"
+    },
+    "options_user_rule_add_rule": {
+        "message": "Add user rule"
+    },
+    "options_user_rule_edit_rule": {
+        "message": "Edit user rule"
+    },
+    "options_user_magnifier": {
+        "message": "Magnifier"
+    },
+    "options_filters_not_found": {
+        "message": "No filters found"
+    },
+    "options_filters_not_rules": {
+        "message": "No rules found"
+    },
+    "options_paste_filter_label": {
+        "message": "Filter URL or a local file path"
+    },
+    "options_paste_filter_url": {
+        "message": "Paste the filter URL or a local file path"
+    },
+    "options_rules_search": {
+        "message": "Search"
+    },
+    "options_editor_save": {
+        "message": "Save"
+    },
+    "options_editor_cancel": {
+        "message": "Cancel"
+    },
+    "options_user_rule_wizard_button_add": {
+        "message": "Add"
+    },
+    "options_user_rules_other_domain": {
+        "message": "other"
+    },
+    "error_rule_is_invalid": {
+        "message": "The rule is invalid. Check for unsupported modifiers, overly complex regular expressions, or syntax errors."
+    },
+    "error_rules_limit": {
+        "message": "Failed to add the rule. The limit of %limit% rules has been exceeded."
+    },
+    "error_regexp_rules_limit": {
+        "message": "Failed to add the rule. The limit of %limit% regex rules has been exceeded."
+    },
+    "debugging_title_reload_page": {
+        "message": "Open developer tools and reload the page"
+    },
+    "debugging_loading_sourcemap": {
+        "message": "Loading source maps..."
+    },
+    "debugging_info": {
+        "message": "Detailed info on requests with applied declarative rules is available in the debug version of the extension. To install the debug version, <link>clone the repository and build the extension<\/link>."
+    },
+    "options_limits_warning_title": {
+        "message": "The browser has modified the list of active filters"
+    },
+    "options_limits_warning_title_what_happened": {
+        "message": "What happened?"
+    },
+    "options_limits_warning_desc_what_happened": {
+        "message": "The limit of active built-in rules was exceeded after an update or adding a new extension. As per Manifest V3, your Chrome browser reacted by disabling all the extension's built-in filters except the default ones."
+    },
+    "options_limits_warning_title_filters_enabled": {
+        "message": "Filters enabled before the update"
+    },
+    "options_limits_warning_title_filters_enabled_now": {
+        "message": "Filters enabled now"
+    },
+    "options_limits_warning_title_possible_actions": {
+        "message": "Your possible actions"
+    },
+    "options_limits_warning_desc_possible_actions": {
+        "message": "Option 1. Delete unnecessary ad-blocking extensions from your browser. To reactivate the filters mentioned in the \"Filters enabled before the update\" section, click <button>reactivate filters<\/button>."
+    },
+    "options_limits_warning_desc_app": {
+        "message": "Option 2. Install the Adblocker Ultimate Ad Blocker app: it has no restrictions on filtering rules. <link>Get Adblocker Ultimate Ad Blocker<\/link>"
+    },
+    "options_limits_warning_desc_close": {
+        "message": "Option 3. If you're satisfied with the currently enabled default filter(s), <button>close this warning<\/button>."
+    },
+    "options_limits_title": {
+        "message": "Rule limits"
+    },
+    "options_limits_desc_specifications": {
+        "message": "This extension conforms to Manifest V3."
+    },
+    "options_limits_link_about_mv3": {
+        "message": "Learn more about Manifest V3"
+    },
+    "options_limits_dynamic_title": {
+        "message": "Dynamic rules"
+    },
+    "options_limits_dynamic_added": {
+        "message": "User-added rules, such as user rules and custom filters"
+    },
+    "options_limits_regex": {
+        "message": "Regex rules (included in the above)"
+    },
+    "options_value_of_value": {
+        "message": "%current% of %max%"
+    },
+    "options_limits_static_title": {
+        "message": "Static rulesets"
+    },
+    "options_limits_static_rulesets_desc": {
+        "message": "Built-in filters (e.g. Block annoyances or Language-specific filters). You can enable up to %count% static rulesets at once."
+    },
+    "options_limits_static_rules_title": {
+        "message": "Static rules"
+    },
+    "options_limits_static_rules_desc": {
+        "message": "Rules from built-in filters. All extensions in your Chrome browser can use %count% static rules at once."
+    },
+    "options_limits_static_filters_reactivated": {
+        "message": "Filters are reactivated."
+    },
+    "options_limits_static_filters_limit_still_exceed": {
+        "message": "Impossible to reactivate the filters: the rule limit is still exceeded."
+    },
+    "options_custom_filter_modal_incorrect_format": {
+        "message": "The file should be in .txt format"
+    },
+    "options_custom_filter_modal_incorrect_url": {
+        "message": "Can't access the URL"
+    }
+}

@@ -1,0 +1,185 @@
+/**
+ * Rate-us popup content styles (injected inside iframe).
+ */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+  line-height: 1;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-weight: 400;
+}
+button {
+  border: none;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+.rate-us-popup {
+  font-family: Open Sans, sans-serif;
+  width: 100%;
+  height: 100%;
+  min-width: 265px;
+  min-height: 415px;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(-120deg, #102a4c, #3a75af 100%);
+  border-radius: 14px;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+.rate-us-popup.opaque {
+  opacity: 1;
+  pointer-events: all;
+}
+.rate-us-popup .screen {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+.rate-us-popup .current.screen {
+  opacity: 1;
+  visibility: visible;
+}
+.rate-us-popup .close-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  font-weight: 700;
+  font-size: 30px;
+  z-index: 1;
+}
+.rate-us-popup .prompt,
+.rate-us-popup .answer {
+  height: 415px;
+}
+.rate-us-popup .prompt {
+  padding-top: 20px;
+}
+.rate-us-popup .prompt .logo {
+  max-width: 40px;
+  margin-bottom: 10px;
+}
+.rate-us-popup .heading {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 12px;
+}
+.rate-us-popup .subheading {
+  font-size: 26px;
+  font-weight: 700;
+  max-width: 16ch;
+  margin: 0 auto 15px;
+}
+.rate-us-popup .bochko {
+  max-width: 180px;
+  max-height: 136px;
+}
+.rate-us-popup .question {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+.rate-us-popup .actions {
+  display: flex;
+  border-top: 2px solid #1f4771;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 14px 14px;
+}
+.rate-us-popup .actions button {
+  flex-basis: 50%;
+  font-size: 16px;
+  padding-block: 14px;
+}
+.rate-us-popup .actions button + button {
+  border-left: 1px solid #1f4771;
+}
+.rate-us-popup .answer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.rate-us-popup .answer .heading {
+  font-size: 19px;
+  max-width: 20ch;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.rate-us-popup .answer-yes .stars {
+  width: 200px;
+}
+.rate-us-popup .answer-yes .btn {
+  width: 160px;
+}
+.rate-us-popup .answer-yes .no-btn {
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 300;
+}
+.rate-us-popup .answer-no .form {
+  max-width: 200px;
+}
+.rate-us-popup .message-field,
+.rate-us-popup .email-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 4px;
+  font-size: 13px;
+}
+.rate-us-popup .message-field {
+  height: 110px;
+  resize: none;
+}
+.rate-us-popup .answer-no .btn {
+  margin-top: 6px;
+  width: 100%;
+}
+.rate-us-popup .thank-you-msg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.3s;
+}
+.rate-us-popup .thank-you-msg .heading {
+  font-size: 32px;
+  font-weight: 700;
+}
+.rate-us-popup .answer-no.sent > *:not(.thank-you-msg) {
+  opacity: 0;
+}
+.rate-us-popup .answer-no.sent .thank-you-msg {
+  opacity: 1 !important;
+}
+.rate-us-popup .btn {
+  font-size: 14px;
+  text-align: center;
+  background: #4caf50;
+  border-radius: 8px;
+  padding: 12px;
+  text-transform: uppercase;
+}

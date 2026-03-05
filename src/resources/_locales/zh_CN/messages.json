@@ -1,0 +1,821 @@
+{
+  "assistant_select_element": {
+    "message": "選擇模式："
+  },
+  "assistant_select_element_ext": {
+    "message": "单击页面上的任何元素或"
+  },
+  "assistant_select_element_cancel": {
+    "message": "退出选择模式"
+  },
+  "assistant_block_element": {
+    "message": "屏蔽元素"
+  },
+  "assistant_block_element_explain": {
+    "message": "设置元素屏蔽规则"
+  },
+  "assistant_extended_settings": {
+    "message": "高级设置..."
+  },
+  "assistant_rule_parameters": {
+    "message": "规则参数"
+  },
+  "assistant_apply_rule_to_all_sites": {
+    "message": "对每个 web 站点使用此规则"
+  },
+  "assistant_block_by_reference": {
+    "message": "根据 URL 屏蔽元素"
+  },
+  "assistant_block_similar": {
+    "message": "屏蔽类似元素"
+  },
+  "assistant_block": {
+    "message": "屏蔽"
+  },
+  "assistant_another_element": {
+    "message": "选择另一个元素"
+  },
+  "assistant_preview": {
+    "message": "预览"
+  },
+  "assistant_preview_start": {
+    "message": "预览"
+  },
+  "assistant_preview_end": {
+    "message": "结束预览"
+  },
+  "name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "short_name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "description_blocked": {
+    "message": "此页上已屏蔽的广告： $1"
+  },
+  "options_settings": {
+    "message": "AdBlocker Ultimate"
+  },
+  "options_antibanner_info": {
+    "message": "筛选规则总数： $1"
+  },
+  "options_whitelist": {
+    "message": "白名单"
+  },
+  "options_modal_cancel": {
+    "message": "取消"
+  },
+  "options_modal_homepage": {
+    "message": "主页"
+  },
+  "options_userfilter": {
+    "message": "用户规则"
+  },
+  "options_userfilter_description": {
+    "message": ""
+  },
+  "options_userfilter_add_rule": {
+    "message": "添加新规则"
+  },
+  "options_userfilter_export": {
+    "message": "导出"
+  },
+  "options_userfilter_import": {
+    "message": "导入"
+  },
+  "options_userfilter_clear": {
+    "message": "清除"
+  },
+  "options_userfilter_clear_confirm": {
+    "message": "清除用户筛选器将会删除所有规则。请问您是否要清除用户筛选器？"
+  },
+  "options_whitelistfilter_clear_confirm": {
+    "message": "清除白名单会删除所有规则。请问您是否要清除白名单？"
+  },
+  "options_filter_version": {
+    "message": "版本 $1 。在 $2 $3 更新。"
+  },
+  "options_popup_update_title": {
+    "message": "筛选器成功更新"
+  },
+  "options_popup_update_not_found": {
+    "message": "无可用更新"
+  },
+  "options_popup_update_error": {
+    "message": "无法获取更新。请稍后重试。"
+  },
+  "options_popup_update_updated": {
+    "message": "\"$1\" 更新到版本 $2"
+  },
+  "popup_block_site_ads": {
+    "message": "屏蔽此网站的广告"
+  },
+  "popup_security_report": {
+    "message": "网站安全报告"
+  },
+  "popup_open_settings": {
+    "message": "AdBlocker Ultimate 设置"
+  },
+  "popup_site_protection_disabled": {
+    "message": "AdBlocker Ultimate 保护功能暂时关闭"
+  },
+  "popup_site_filtering_state": {
+    "message": "此网站的保护"
+  },
+  "popup_block_site_ads_android": {
+    "message": "屏蔽某网站的广告"
+  },
+  "popup_security_report_android": {
+    "message": "安全报告"
+  },
+  "popup_site_protection_disabled_android": {
+    "message": "保护功能暂时关闭"
+  },
+  "popup_open_log_android": {
+    "message": "屏蔽记录"
+  },
+  "popup_tab_blocked": {
+    "message": "已屏蔽: $1"
+  },
+  "popup_tab_blocked_all": {
+    "message": "总共: $1"
+  },
+  "popup_ads_has_been_removed": {
+    "message": "此页面的广告已被移除"
+  },
+  "popup_ads_has_been_removed_by_abu": {
+    "message": "被 $1 保护"
+  },
+  "context_block_site_ads": {
+    "message": "屏蔽此网站的广告..."
+  },
+  "context_block_site_element": {
+    "message": "屏蔽元素..."
+  },
+  "context_abuse_site": {
+    "message": "为此网站提交一份投诉..."
+  },
+  "context_ads_has_been_removed": {
+    "message": "此页面的广告已被移除"
+  },
+  "context_ads_has_been_removed_by_abu": {
+    "message": "被 $1 保护"
+  },
+  "context_site_filtering_disabled": {
+    "message": "AdBlocker Ultimate 无法在此域上运行"
+  },
+  "context_site_protection_disabled": {
+    "message": "AdBlocker Ultimate 保护功能暂时关闭"
+  },
+  "context_open_settings": {
+    "message": "AdBlocker Ultimate 设置..."
+  },
+  "context_site_exception": {
+    "message": "此网站属于例外情况"
+  },
+  "context_site_filtering_on": {
+    "message": "对此网站启用筛选功能"
+  },
+  "context_site_filtering_off": {
+    "message": "在此网站上禁用过滤"
+  },
+  "context_update_antibanner_filters": {
+    "message": "检查筛选器更新"
+  },
+  "alert_popup_filter_enabled_title": {
+    "message": "过滤器已自动激活"
+  },
+  "alert_popup_filter_enabled_text": {
+    "message": "&quot;$1&quot; 已被激活"
+  },
+  "filter_download_title": {
+    "message": "正在加载筛选器数据库..."
+  },
+  "filter_download_loading": {
+    "message": "请等待筛选器数据库加载完成..."
+  },
+  "abu_product_windows": {
+    "message": "AdBlocker Ultimate Windows 版"
+  },
+  "abu_product_mac": {
+    "message": "AdBlocker Ultimate Mac 版"
+  },
+  "abu_subscribe_confirm_enable": {
+    "message": "AdBlocker Ultimate: 请问您是否要启用 $1 这个订阅？"
+  },
+  "abu_subscribe_confirm_import": {
+    "message": "AdBlocker Ultimate: 请问您是否要将 $1 中的所有规则导入到您的用户筛选器中？"
+  },
+  "abu_subscribe_confirm_import_finished_title": {
+    "message": "导入已完成"
+  },
+  "abu_subscribe_confirm_import_finished_text": {
+    "message": "AdBlocker Ultimate 已将规则导入用户过滤器。已导入规则条数: $1"
+  },
+  "browser_action_popup_enabled_on_site": {
+    "message": "在此站点上<strong>启用</strong>"
+  },
+  "browser_action_popup_disabled_on_site": {
+    "message": "在此站点上<strong>禁用</strong>"
+  },
+  "browser_action_popup_on_this_page": {
+    "message": "在此页面上有<strong>$1</strong>个"
+  },
+  "browser_action_popup_in_total": {
+    "message": "总共有<strong>$1</strong>个"
+  },
+  "browser_action_popup_show_number_in_icon": {
+    "message": "在图标上显示屏蔽数量"
+  },
+  "browser_action_popup_options": {
+    "message": "选项"
+  },
+  "browser_action_popup_block_element": {
+    "message": "屏蔽元素"
+  },
+  "browser_action_popup_donate": {
+    "message": "捐赠"
+  },
+  "browser_action_ads_blocked": {
+    "message": "已屏蔽广告"
+  },
+  "options_title": {
+    "message": "AdBlocker Ultimate 选项"
+  },
+  "options_filter_list": {
+    "message": "筛选器列表"
+  },
+  "options_add_your_filters": {
+    "message": "添加您自己的筛选器"
+  },
+  "options_whitelisted_domains": {
+    "message": "已加入白名单的域名"
+  },
+  "options_general": {
+    "message": "一般设置"
+  },
+  "options_enable_only": {
+    "message": "请只启用您会用到的筛选器。太多的话，浏览器可能会变得反应迟钝。"
+  },
+  "options_out_of_date_lists": {
+    "message": "过期的列表会被定期更新。"
+  },
+  "options_enabled": {
+    "message": "已启用"
+  },
+  "options_please_choose": {
+    "message": "请从列表中选择一个过滤规则订阅："
+  },
+  "options_add": {
+    "message": "增加"
+  },
+  "options_subscription_title": {
+    "message": "订阅标题:"
+  },
+  "options_filter_list_location": {
+    "message": "筛选器列表位置:"
+  },
+  "options_abu_is_disabled": {
+    "message": "已在下列域名中禁用 AdBlocker Ultimate。您可以点击地址栏的 AdBlocker Ultimate 图标或在下框中输入域名（不是 URL），并点击“添加域名”按钮。"
+  },
+  "options_add_domain": {
+    "message": "添加域"
+  },
+  "options_remove_selected": {
+    "message": "删除选中项"
+  },
+  "options_apply_changes": {
+    "message": "应用更改"
+  },
+  "options_show_block_element": {
+    "message": "显示 '屏蔽元素' 右键菜单"
+  },
+  "options_show_useful_notifications": {
+    "message": "显示有用的提示"
+  },
+  "options_update_now": {
+    "message": "现在更新"
+  },
+  "options_add_filter_subscription": {
+    "message": "增加筛选器订阅"
+  },
+  "options_delete": {
+    "message": "删除"
+  },
+  "options_add_filter": {
+    "message": "添加筛选器"
+  },
+  "assistant_block_element_by_url": {
+    "message": "根据 URL 屏蔽元素"
+  },
+  "description": {
+    "message": "终极广告拦截工具。免费拦截 YouTube、Facebook 和所有其他网站上的广告！"
+  },
+  "shield_dont_show_again": {
+    "message": "不要再显示此信息"
+  },
+  "shield_congrats": {
+    "message": "恭喜！"
+  },
+  "shield_congratulations": {
+    "message": "恭喜！"
+  },
+  "shield_got_no_ads": {
+    "message": "没有广告，皆因"
+  },
+  "shield_to_unlock": {
+    "message": "解锁"
+  },
+  "shield_gold_shield": {
+    "message": "金盾"
+  },
+  "shield_silver_shield": {
+    "message": "银盾"
+  },
+  "shield_bronze_shield": {
+    "message": "铜盾"
+  },
+  "shield_share_abu": {
+    "message": "分享 AdBlocker Ultimate:"
+  },
+  "shield_you_won": {
+    "message": "您已获得"
+  },
+  "shield_blocked_ads": {
+    "message": "已屏蔽广告"
+  },
+  "shield_rate_us": {
+    "message": "给我们评分"
+  },
+  "shield_contribute_to_our_project": {
+    "message": "为我们的项目做贡献"
+  },
+  "shield_we_blocked_more_than": {
+    "message": "我们为您屏蔽了超过 $1 个广告，同时:"
+  },
+  "shield_decreased_your_page_load_time": {
+    "message": "将页面载入时间降低了 $1"
+  },
+  "shield_decreased_peak_cpu_usage": {
+    "message": "将最高 CPU 占用率降低了 $1"
+  },
+  "shield_decreased_peak_memory_usage": {
+    "message": "将最高内存占用降低了 $1"
+  },
+  "store_ss_no_more_ads": {
+    "message": "使用我们的免费广告拦截器，没有广告"
+  },
+  "store_ss_surf_faster": {
+    "message": "冲浪更快、 更安全、 更清洁，没有烦人的广告 ！"
+  },
+  "store_ss_no_more_video_ads": {
+    "message": "没有视频广告"
+  },
+  "store_ss_no_more_facebook_ads": {
+    "message": "没有 Facebook 广告"
+  },
+  "store_ss_no_more_banner_ads": {
+    "message": "没有条幅广告"
+  },
+  "store_ss_ads": {
+    "message": "广告"
+  },
+  "store_ss_surf_faster_with_no_ads": {
+    "message": "上网更快，更安全，没有广告"
+  },
+  "store_ss_surf_and_all_annoying_ads": {
+    "message": "并且所有恼人的广告都完蛋了！"
+  },
+  "options_check_for_updates": {
+    "message": "检查筛选器更新"
+  },
+  "filter_rules_count": {
+    "message": "过滤规则数"
+  },
+  "security": {
+    "message": "安全"
+  },
+  "options_language_specific": {
+    "message": "特定语言"
+  },
+  "options_custom_filters": {
+    "message": "自定义过滤规则"
+  },
+  "follow_us": {
+    "message": "关注我们"
+  },
+  "contact_us": {
+    "message": "联系我们"
+  },
+  "report_bug": {
+    "message": "报告错误"
+  },
+  "privacy_policy": {
+    "message": "隐私政策"
+  },
+  "official_website": {
+    "message": "官方网站"
+  },
+  "all_rights_reserved": {
+    "message": "版权所有"
+  },
+  "version": {
+    "message": "版本"
+  },
+  "all_ads_out": {
+    "message": "所有烦人的广告都没了！"
+  },
+  "options_whitelist_desc": {
+    "message": "添加到白名单的网站上的广告不会被屏蔽。"
+  },
+  "options_export": {
+    "message": "导出"
+  },
+  "options_import": {
+    "message": "导入"
+  },
+  "options_err_import_file": {
+    "message": "导入文件时出错！"
+  },
+  "options_err_no_txt_file": {
+    "message": "仅允许 .txt 文件！"
+  },
+  "options_status_saved": {
+    "message": "已保存"
+  },
+  "options_custom_rules": {
+    "message": "自定义规则"
+  },
+  "options_do_you_like_abu": {
+    "message": "您喜欢 AdBlocker Ultimate 吗？"
+  },
+  "options_editor_desc": {
+    "message": "您可以在这个列表添加自己的自定义规则。创建你自己的广告过滤规则并在这里添加它们。"
+  },
+  "options_number_icon_desc": {
+    "message": "每个页面上被屏蔽广告的数量会在扩展图标中显示。"
+  },
+  "options_anti_circumvention_title": {
+    "message": "启用反规避"
+  },
+  "options_anti_circumvention_desc": {
+    "message": "这个功能对抗某些网站显示反广告屏蔽消息。"
+  },
+  "options_auto_activate_lang_filters_title": {
+    "message": "自动激活特定语言的过滤规则"
+  },
+  "options_auto_activate_lang_filters_desc": {
+    "message": "打开一种语言的少量页面之后，此语言的过滤规则会自动添加和激活。"
+  },
+  "options_about": {
+    "message": "关于"
+  },
+  "options_filters_updated": {
+    "message": "已更新"
+  },
+  "options_filters": {
+    "message": "过滤规则"
+  },
+  "options_filters_enabled": {
+    "message": "已启用："
+  },
+  "options_filters_enabled_and_more": {
+    "message": "$1 和 $2 更多"
+  },
+  "options_no_filters_enabled": {
+    "message": "没有启用的过滤规则"
+  },
+  "options_filter_status_all": {
+    "message": "所有"
+  },
+  "options_filter_status_disable": {
+    "message": "已禁用"
+  },
+  "options_search": {
+    "message": "搜索"
+  },
+  "options_clear_filter": {
+    "message": "清除过滤规则"
+  },
+  "options_confirm_filter_delete": {
+    "message": "您确定要删除这个过滤规则吗？"
+  },
+  "options_custom": {
+    "message": "自定义"
+  },
+  "options_no_custom_filters": {
+    "message": "对不起，但您还没有任何自定义过滤规则"
+  },
+  "options_submit": {
+    "message": "提交"
+  },
+  "options_enter_url_or_path": {
+    "message": "输入有效的 URL 或文件路径"
+  },
+  "options_new_filter": {
+    "message": "新过滤规则"
+  },
+  "options_custom_filter_already_add": {
+    "message": "已存在相同 URL 的过滤规则"
+  },
+  "options_add_custom_filter": {
+    "message": "添加自定义过滤规则"
+  },
+  "options_custom_filter_empty_url": {
+    "message": "请输入过滤规则 URL！"
+  },
+  "options_custom_filter_error": {
+    "message": "下载过滤规则时出错！"
+  },
+  "options_last_uodate": {
+    "message": "上次更新"
+  },
+  "options_rate_us": {
+    "message": "给我们评分"
+  },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
+  "badge_windows_ifno": {
+    "message": "一个广告拦截器拦截所有Windows应用程序的广告和在线跟踪。"
+  },
+  "badge_download_now": {
+    "message": "现在下载"
+  },
+  "badge_learn_more": {
+    "message": "了解更多"
+  },
+  "popup_on_this_site": {
+    "message": "在这个网站："
+  },
+  "popup_total": {
+    "message": "总计："
+  },
+  "popup_settings": {
+    "message": "设置"
+  },
+  "popup_share_on_fb": {
+    "message": "在 Facebook 上分享"
+  },
+  "popup_share_on_twitter": {
+    "message": "在 Twitter 上分享"
+  },
+  "popup_get_abu_windows": {
+    "message": "获取 AdBlocker Ultimate for Windows"
+  },
+  "popup_secure_page": {
+    "message": "安全页面"
+  },
+  "popup_protection_enabled": {
+    "message": "保护：已启用"
+  },
+  "popup_protection_disabled": {
+    "message": "保护：已禁用"
+  },
+  "options_want_abu_in_lang": {
+    "message": "想要 AdBlocker Ultimate 显示您的语言吗？"
+  },
+  "options_help_translate": {
+    "message": "帮助我们翻译！"
+  },
+  "popup_enabled_on_site": {
+    "message": "在此站点上启用"
+  },
+  "popup_disabled_on_site": {
+    "message": "在此站点上禁用"
+  },
+  "popup_curent_tab_blocked": {
+    "message": "已屏蔽："
+  },
+  "popup_blocked_total": {
+    "message": "总计："
+  },
+  "filter_group_custom_filters": {
+    "message": "自定义过滤规则"
+  },
+  "filter_group_ad_blocking": {
+    "message": "广告屏蔽中"
+  },
+  "filter_group_privacy": {
+    "message": "隐私"
+  },
+  "filter_group_security": {
+    "message": "安全"
+  },
+  "filter_group_language_specific": {
+    "message": "特定语言"
+  },
+  "filter_name_ultimate_ad_filter": {
+    "message": "终极广告过滤器"
+  },
+  "filter_description_ultimate_ad_filter": {
+    "message": "这是这里表现最好的广告过滤规则，能屏蔽整个网络的广告。它基于 EasyList 并由我们的团队增强。"
+  },
+  "filter_name_anti_circumvention": {
+    "message": "反规避"
+  },
+  "filter_description_anti_circumvention": {
+    "message": "用于对抗规避广告的过滤列表。"
+  },
+  "filter_name_fanboys_annoyance_list": {
+    "message": "Fanboy's 增强过滤列表"
+  },
+  "filter_description_fanboys_annoyance_list": {
+    "message": "使用这个过滤器来屏蔽页面中烦人的弹出窗口、Cookie 通知和第三方小部件，为您显著减少页面加载时间。"
+  },
+  "filter_name_ultimate_privacy_filter": {
+    "message": "终极隐私过滤器"
+  },
+  "filter_description_ultimate_privacy_filter": {
+    "message": "屏蔽了一个广泛的在线跟踪、计数器和网站分析工具列表。基于 EasyList 隐私列表并由我们的团队升级。"
+  },
+  "filter_name_fanboys_social_blocking_list": {
+    "message": "Fanboy's 社交按钮屏蔽列表"
+  },
+  "filter_description_fanboys_social_blocking_list": {
+    "message": "移除社交媒体集成"
+  },
+  "filter_name_ultimate_security_filter": {
+    "message": "终极安全过滤器"
+  },
+  "filter_description_ultimate_security_filter": {
+    "message": "此过滤规则屏蔽广告软件注入的广告。基于 Easylist's Adware 过滤规则，并由我们的团队进一步更新和修改。"
+  },
+  "filter_name_spam404": {
+    "message": "Spam404"
+  },
+  "filter_description_spam404": {
+    "message": "此过滤规则保护你不受在线欺诈。过滤规则会定期更新由 Spam404.com 收集的数据。"
+  },
+  "filter_name_nocoin": {
+    "message": "NoCoin"
+  },
+  "filter_description_nocoin": {
+    "message": "阻止浏览器中的挖矿行为。"
+  },
+  "filter_name_ruadlist_easylist": {
+    "message": "RuAdList+EasyList"
+  },
+  "filter_description_ruadlist_easylist": {
+    "message": "从俄语网站上移除广告。"
+  },
+  "filter_name_easylist_germany_easylist": {
+    "message": "德语 EasyList+EasyList"
+  },
+  "filter_description_easylist_germany_easylist": {
+    "message": "从德语网站上移除广告。"
+  },
+  "filter_name_fanboys_japanese": {
+    "message": "Fanboy 的日本语"
+  },
+  "filter_description_fanboys_japanese": {
+    "message": "从日本语网站上移除广告。"
+  },
+  "filter_name_easylist_dutch_easylist": {
+    "message": "EasyList 荷兰语 + EasyList"
+  },
+  "filter_description_easylist_dutch_easylist": {
+    "message": "从荷兰语网站上移除广告。"
+  },
+  "filter_name_fanboys_spanish_portuguese": {
+    "message": "Fanboy 的西班牙语/葡萄牙语"
+  },
+  "filter_description_fanboys_spanish_portuguese": {
+    "message": "从西班牙语/葡萄牙语网站去除广告。"
+  },
+  "filter_name_fanboys_turkish": {
+    "message": "Fanboy 的土耳其语"
+  },
+  "filter_description_fanboys_turkish": {
+    "message": "从土耳其语网站上移除广告。"
+  },
+  "filter_name_bulgarian_list": {
+    "message": "保加利亚语列表"
+  },
+  "filter_description_bulgarian_list": {
+    "message": "从保加利亚语网站上移除广告。"
+  },
+  "filter_name_easylist_china": {
+    "message": "EasyList China"
+  },
+  "filter_description_easylist_china": {
+    "message": "从中文网站上移除广告。"
+  },
+  "filter_name_easylist_czech_and_slovak": {
+    "message": "EasyList 捷克语和斯洛伐克语"
+  },
+  "filter_description_easylist_czech_and_slovak": {
+    "message": "从捷克语和斯洛伐克语网站上移除广告。"
+  },
+  "filter_name_easylist_italy": {
+    "message": "EasyList 意大利语"
+  },
+  "filter_description_easylist_italy": {
+    "message": "从意大利语网站上移除广告。"
+  },
+  "filter_name_latvian_list": {
+    "message": "拉脱维亚语列表"
+  },
+  "filter_description_latvian_list": {
+    "message": "从拉脱维亚语网站上移除广告。"
+  },
+  "filter_name_adblock_polska": {
+    "message": "Adblock 波兰语"
+  },
+  "filter_description_adblock_polska": {
+    "message": "从波兰语网站上移除广告。"
+  },
+  "filter_name_estonian_list": {
+    "message": "爱沙尼亚语列表"
+  },
+  "filter_description_estonian_list": {
+    "message": "从爱沙尼亚语网站上移除广告。"
+  },
+  "filter_name_adblock_persian_list": {
+    "message": "Adblock - 波斯语列表"
+  },
+  "filter_description_adblock_persian_list": {
+    "message": "从波斯语网站上移除广告。"
+  },
+  "filter_name_fanboys_swedish": {
+    "message": "Fanboy 的瑞典语"
+  },
+  "filter_description_fanboys_swedish": {
+    "message": "从瑞典语网站上移除广告。"
+  },
+  "filter_name_fanboys_korean": {
+    "message": "Fanboy 的韩语"
+  },
+  "filter_description_fanboys_korean": {
+    "message": "从韩语网站上移除广告。"
+  },
+  "filter_name_fanboys_vietnamese": {
+    "message": "Fanboy 的越南语"
+  },
+  "filter_description_fanboys_vietnamese": {
+    "message": "从越南语网站上移除广告。"
+  },
+  "filter_name_hufilter": {
+    "message": "Hufilter - 匈牙利语 Adblock 列表"
+  },
+  "filter_description_hufilter": {
+    "message": "从匈牙利语网站上移除广告。"
+  },
+  "filter_name_liste_fr": {
+    "message": "Liste FR"
+  },
+  "filter_description_liste_fr": {
+    "message": "从法语网站上移除广告。"
+  },
+  "block_even_more_ads": {
+    "message": "屏蔽更多广告"
+  },
+  "desktop_app_is_running": {
+    "message": "桌面应用程序正在运行"
+  },
+  "popup_status_inactive": {
+    "message": "过滤未激活以避免可能的网站功能失灵。"
+  },
+  "abu_desktop_info": {
+    "message": "广告屏蔽已由 Adblocker Ultimate for Windows 处理。然而你还可以用这个菜单管理你的白名单，或手动屏蔽某些广告。"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "no": {
+    "message": "否"
+  },
+  "shield_send_feedback": {
+    "message": "发送反馈"
+  },
+  "shield_email": {
+    "message": "邮件"
+  },
+  "shield_tell_how_to_improve": {
+    "message": "请告诉我们该如何改进"
+  },
+  "shield_rate_txt": {
+    "message": "喜欢屏蔽广告？帮助其他人了解我们"
+  },
+  "shield_sending": {
+    "message": "发送中..."
+  },
+  "shield_message": {
+    "message": "消息"
+  },
+  "shield_thank_you": {
+    "message": "谢谢！"
+  },
+  "shield_no_thanks": {
+    "message": "不，谢谢"
+  },
+  "shield_do_you_like_abu": {
+    "message": "你喜欢 </br> AdBlocker Ultimate?"
+  }
+}

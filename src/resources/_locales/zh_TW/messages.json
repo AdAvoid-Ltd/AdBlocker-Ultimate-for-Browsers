@@ -1,0 +1,821 @@
+{
+  "assistant_select_element": {
+    "message": "選擇模式"
+  },
+  "assistant_select_element_ext": {
+    "message": "按一下頁面上的任何元素或 "
+  },
+  "assistant_select_element_cancel": {
+    "message": "取消選擇模式"
+  },
+  "assistant_block_element": {
+    "message": "阻擋元素"
+  },
+  "assistant_block_element_explain": {
+    "message": "元素阻塞規則設置"
+  },
+  "assistant_extended_settings": {
+    "message": "進階設定..."
+  },
+  "assistant_rule_parameters": {
+    "message": "規則參數"
+  },
+  "assistant_apply_rule_to_all_sites": {
+    "message": "將此規則應用到每個網站"
+  },
+  "assistant_block_by_reference": {
+    "message": "通過url的塊元素"
+  },
+  "assistant_block_similar": {
+    "message": "塊類似的元素"
+  },
+  "assistant_block": {
+    "message": "封鎖"
+  },
+  "assistant_another_element": {
+    "message": "請選擇另一個輸入項"
+  },
+  "assistant_preview": {
+    "message": "預覽"
+  },
+  "assistant_preview_start": {
+    "message": "預覽"
+  },
+  "assistant_preview_end": {
+    "message": "完成預覽"
+  },
+  "name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "short_name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "description_blocked": {
+    "message": "此網頁上封鎖的廣告：$ 1美元"
+  },
+  "options_settings": {
+    "message": "AdBlocker Ultimate"
+  },
+  "options_antibanner_info": {
+    "message": "篩選器規則計數：$1"
+  },
+  "options_whitelist": {
+    "message": "安全名單："
+  },
+  "options_modal_cancel": {
+    "message": "已取消"
+  },
+  "options_modal_homepage": {
+    "message": "首頁"
+  },
+  "options_userfilter": {
+    "message": "使用者篩選器"
+  },
+  "options_userfilter_description": {
+    "message": ""
+  },
+  "options_userfilter_add_rule": {
+    "message": "添加新規則"
+  },
+  "options_userfilter_export": {
+    "message": "導出"
+  },
+  "options_userfilter_import": {
+    "message": "匯入"
+  },
+  "options_userfilter_clear": {
+    "message": "清空"
+  },
+  "options_userfilter_clear_confirm": {
+    "message": "清除使用者篩選器中移除所有規則。你真的想要清除使用者篩選器嗎？"
+  },
+  "options_whitelistfilter_clear_confirm": {
+    "message": "清除白名單中將刪除所有的規則。"
+  },
+  "options_filter_version": {
+    "message": "版本 $1美元。更新 $2美元到 $3美元。"
+  },
+  "options_popup_update_title": {
+    "message": "已成功更新的頁面。"
+  },
+  "options_popup_update_not_found": {
+    "message": "未找到更新。"
+  },
+  "options_popup_update_error": {
+    "message": "獲取更新失敗。"
+  },
+  "options_popup_update_updated": {
+    "message": "更新到版本 $2 美元的 “$1”"
+  },
+  "popup_block_site_ads": {
+    "message": "在這個網站上阻止廣告"
+  },
+  "popup_security_report": {
+    "message": "網站安全報告"
+  },
+  "popup_open_settings": {
+    "message": "AdBlocker Ultimate設置"
+  },
+  "popup_site_protection_disabled": {
+    "message": "AdBlocker Ultimate保護暫停"
+  },
+  "popup_site_filtering_state": {
+    "message": "在這個網站上的保護"
+  },
+  "popup_block_site_ads_android": {
+    "message": "在這個網站上阻止廣告"
+  },
+  "popup_security_report_android": {
+    "message": "安全報告"
+  },
+  "popup_site_protection_disabled_android": {
+    "message": "應用程式已暫停"
+  },
+  "popup_open_log_android": {
+    "message": "篩選日誌"
+  },
+  "popup_tab_blocked": {
+    "message": "已封鎖：$1"
+  },
+  "popup_tab_blocked_all": {
+    "message": "總數：$1"
+  },
+  "popup_ads_has_been_removed": {
+    "message": "已從該頁面刪除廣告"
+  },
+  "popup_ads_has_been_removed_by_abu": {
+    "message": "受美元 $1"
+  },
+  "context_block_site_ads": {
+    "message": "在這個網站上阻止廣告"
+  },
+  "context_block_site_element": {
+    "message": "阻擋元素"
+  },
+  "context_abuse_site": {
+    "message": "提交本網站"
+  },
+  "context_ads_has_been_removed": {
+    "message": "已從該頁面刪除廣告"
+  },
+  "context_ads_has_been_removed_by_abu": {
+    "message": "受美元 $1"
+  },
+  "context_site_filtering_disabled": {
+    "message": "AdBlocker Ultimate 不能在這個網域使用。"
+  },
+  "context_site_protection_disabled": {
+    "message": "AdBlocker Ultimate保護暫停"
+  },
+  "context_open_settings": {
+    "message": "AdBlocker Ultimate設置"
+  },
+  "context_site_exception": {
+    "message": "這個網站是的例外情況"
+  },
+  "context_site_filtering_on": {
+    "message": "對此網站啟用篩選功能"
+  },
+  "context_site_filtering_off": {
+    "message": "禁用過濾在這個網站上"
+  },
+  "context_update_antibanner_filters": {
+    "message": "檢查是否有更新"
+  },
+  "alert_popup_filter_enabled_title": {
+    "message": "已自動啟動過濾器"
+  },
+  "alert_popup_filter_enabled_text": {
+    "message": "「&quot;$1&quot;」已啟動"
+  },
+  "filter_download_title": {
+    "message": "正在載入篩選器資料庫..."
+  },
+  "filter_download_loading": {
+    "message": "請篩選器資料庫正在載入，稍候..."
+  },
+  "abu_product_windows": {
+    "message": "AdBlocker Ultimate設置"
+  },
+  "abu_product_mac": {
+    "message": "AdBlocker Ultimate設置"
+  },
+  "abu_subscribe_confirm_enable": {
+    "message": "要啟用 $1 訂閱AdBlocker極限：？"
+  },
+  "abu_subscribe_confirm_import": {
+    "message": "要將規則從 $1 導入到您的使用者篩選器AdBlocker極限：？"
+  },
+  "abu_subscribe_confirm_import_finished_title": {
+    "message": "導入已成功完成"
+  },
+  "abu_subscribe_confirm_import_finished_text": {
+    "message": "導入規則數目：$1"
+  },
+  "browser_action_popup_enabled_on_site": {
+    "message": "此網站上的<strong>啟用</ strong>"
+  },
+  "browser_action_popup_disabled_on_site": {
+    "message": "<strong>禁用</ strong>此網站上"
+  },
+  "browser_action_popup_on_this_page": {
+    "message": "此網站上的<strong>$1</ strong>"
+  },
+  "browser_action_popup_in_total": {
+    "message": "此網站上的<strong>$1</ strong>"
+  },
+  "browser_action_popup_show_number_in_icon": {
+    "message": "在圖示上顯示數量"
+  },
+  "browser_action_popup_options": {
+    "message": "選項"
+  },
+  "browser_action_popup_block_element": {
+    "message": "阻擋元素"
+  },
+  "browser_action_popup_donate": {
+    "message": "贊助/捐款"
+  },
+  "browser_action_ads_blocked": {
+    "message": "廣告已封鎖！"
+  },
+  "options_title": {
+    "message": "AdBlocker Ultimate設置"
+  },
+  "options_filter_list": {
+    "message": "過濾清單"
+  },
+  "options_add_your_filters": {
+    "message": "建立自己的過濾條件"
+  },
+  "options_whitelisted_domains": {
+    "message": "白名單"
+  },
+  "options_general": {
+    "message": "一般"
+  },
+  "options_enable_only": {
+    "message": "使只有您需要的篩選器清單。太多可能使用您的瀏覽器沒有回應。"
+  },
+  "options_out_of_date_lists": {
+    "message": "過期的清單"
+  },
+  "options_enabled": {
+    "message": "啟用"
+  },
+  "options_please_choose": {
+    "message": "請從清單中選擇篩選器的訂閱："
+  },
+  "options_add": {
+    "message": "新增"
+  },
+  "options_subscription_title": {
+    "message": "訂閱標題："
+  },
+  "options_filter_list_location": {
+    "message": "篩選器清單中的位置︰"
+  },
+  "options_abu_is_disabled": {
+    "message": "Adblocker Utlimate 在以下的網域清單中停用。您可以透過AdBlocker Ultimate圖示新增或按下“新增網域”按鈕並輸入網域名稱（非網址）。"
+  },
+  "options_add_domain": {
+    "message": "新增網域"
+  },
+  "options_remove_selected": {
+    "message": "刪除已選擇項目"
+  },
+  "options_apply_changes": {
+    "message": "套用設定"
+  },
+  "options_show_block_element": {
+    "message": "顯示塊"
+  },
+  "options_show_useful_notifications": {
+    "message": "顯示所有通知事項"
+  },
+  "options_update_now": {
+    "message": "立刻更新"
+  },
+  "options_add_filter_subscription": {
+    "message": "新增過濾條件"
+  },
+  "options_delete": {
+    "message": "刪除"
+  },
+  "options_add_filter": {
+    "message": "新增過濾條件"
+  },
+  "assistant_block_element_by_url": {
+    "message": "按網址阻止元素"
+  },
+  "description": {
+    "message": "終極廣告攔截工具。免費攔截 YouTube、Facebook 和所有其他網站上的廣告！"
+  },
+  "shield_dont_show_again": {
+    "message": "不要再顯示此消息"
+  },
+  "shield_congrats": {
+    "message": "恭喜完成!"
+  },
+  "shield_congratulations": {
+    "message": "註冊成功！"
+  },
+  "shield_got_no_ads": {
+    "message": "有沒有廣告向致謝"
+  },
+  "shield_to_unlock": {
+    "message": "要解鎖"
+  },
+  "shield_gold_shield": {
+    "message": "金盾牌"
+  },
+  "shield_silver_shield": {
+    "message": "銀盾"
+  },
+  "shield_bronze_shield": {
+    "message": "青銅盾牌"
+  },
+  "shield_share_abu": {
+    "message": "分享AdBlocker Ultimate"
+  },
+  "shield_you_won": {
+    "message": "每天回來獲得免費獎品！"
+  },
+  "shield_blocked_ads": {
+    "message": "封鎖廣告"
+  },
+  "shield_rate_us": {
+    "message": "評鑑我們"
+  },
+  "shield_contribute_to_our_project": {
+    "message": "我們的專案作出貢獻"
+  },
+  "shield_we_blocked_more_than": {
+    "message": "我們為你阻擋超過$1廣告和："
+  },
+  "shield_decreased_your_page_load_time": {
+    "message": "頁面的載入時間下跌 $1 美元"
+  },
+  "shield_decreased_peak_cpu_usage": {
+    "message": "峰值 CPU 使用率減少 $1"
+  },
+  "shield_decreased_peak_memory_usage": {
+    "message": "峰值CPU使用率減少 $1"
+  },
+  "store_ss_no_more_ads": {
+    "message": "沒有更多的廣告與我們免費的 adblocker"
+  },
+  "store_ss_surf_faster": {
+    "message": "衝浪更快、 更安全、 更清潔，沒有煩人的廣告 ！"
+  },
+  "store_ss_no_more_video_ads": {
+    "message": "沒有更多的視頻廣告"
+  },
+  "store_ss_no_more_facebook_ads": {
+    "message": "沒有更多的視頻廣告"
+  },
+  "store_ss_no_more_banner_ads": {
+    "message": "沒有更多的視頻廣告"
+  },
+  "store_ss_ads": {
+    "message": "廣告"
+  },
+  "store_ss_surf_faster_with_no_ads": {
+    "message": "上網衝浪，速度更快、 更安全與任何廣告"
+  },
+  "store_ss_surf_and_all_annoying_ads": {
+    "message": "和所有煩人的廣告了 ！"
+  },
+  "options_check_for_updates": {
+    "message": "檢查是否有更新"
+  },
+  "filter_rules_count": {
+    "message": "過濾器原則數量"
+  },
+  "security": {
+    "message": "安全"
+  },
+  "options_language_specific": {
+    "message": "特定語言"
+  },
+  "options_custom_filters": {
+    "message": "自訂過濾器"
+  },
+  "follow_us": {
+    "message": "追蹤我們"
+  },
+  "contact_us": {
+    "message": "聯絡我們"
+  },
+  "report_bug": {
+    "message": "回報錯誤"
+  },
+  "privacy_policy": {
+    "message": "隱私權政策"
+  },
+  "official_website": {
+    "message": "官方網站"
+  },
+  "all_rights_reserved": {
+    "message": "保留所有權利。"
+  },
+  "version": {
+    "message": "版本"
+  },
+  "all_ads_out": {
+    "message": "而且所有煩人的廣告都消失了!"
+  },
+  "options_whitelist_desc": {
+    "message": "加入到這份白名單的網頁廣告將不會被攔截。"
+  },
+  "options_export": {
+    "message": "導出"
+  },
+  "options_import": {
+    "message": "匯入"
+  },
+  "options_err_import_file": {
+    "message": "匯入檔案時發生錯誤！"
+  },
+  "options_err_no_txt_file": {
+    "message": "只允許 .txt 格式的檔案"
+  },
+  "options_status_saved": {
+    "message": "已儲存"
+  },
+  "options_custom_rules": {
+    "message": "自訂原則"
+  },
+  "options_do_you_like_abu": {
+    "message": "你喜歡 AdBlocker Ultimate 嗎?"
+  },
+  "options_editor_desc": {
+    "message": "你可以在此清單上新增你自己的自訂原則。建立你自己的廣告過濾器並加到此處。"
+  },
+  "options_number_icon_desc": {
+    "message": "每個頁面上被攔截的廣告數量都會在擴充功能圖示中顯示。"
+  },
+  "options_anti_circumvention_title": {
+    "message": "啟用「反規避」"
+  },
+  "options_anti_circumvention_desc": {
+    "message": "此功能可以對抗部分網站會顯示反廣告過濾器的訊息。"
+  },
+  "options_auto_activate_lang_filters_title": {
+    "message": "自動啟用特定語言的過濾器"
+  },
+  "options_auto_activate_lang_filters_desc": {
+    "message": "當開啟某種語言的少量頁面後，將會自動加入並啟動該語言的過濾原則。"
+  },
+  "options_about": {
+    "message": "關於"
+  },
+  "options_filters_updated": {
+    "message": "已更新"
+  },
+  "options_filters": {
+    "message": "過濾器"
+  },
+  "options_filters_enabled": {
+    "message": "已啟用："
+  },
+  "options_filters_enabled_and_more": {
+    "message": "$1 和 $2 更多"
+  },
+  "options_no_filters_enabled": {
+    "message": "沒有已啟用的過濾器"
+  },
+  "options_filter_status_all": {
+    "message": "全部"
+  },
+  "options_filter_status_disable": {
+    "message": "已停用"
+  },
+  "options_search": {
+    "message": "搜尋"
+  },
+  "options_clear_filter": {
+    "message": "清除過濾器"
+  },
+  "options_confirm_filter_delete": {
+    "message": "你確定要刪除此過濾器嗎?"
+  },
+  "options_custom": {
+    "message": "自訂"
+  },
+  "options_no_custom_filters": {
+    "message": "抱歉，你尚未建立任何自訂過濾器"
+  },
+  "options_submit": {
+    "message": "送出"
+  },
+  "options_enter_url_or_path": {
+    "message": "請輸入有效的網址或檔案路徑！"
+  },
+  "options_new_filter": {
+    "message": "新過濾器"
+  },
+  "options_custom_filter_already_add": {
+    "message": "具有相同網址的過濾器已存在!"
+  },
+  "options_add_custom_filter": {
+    "message": "新增自訂篩選"
+  },
+  "options_custom_filter_empty_url": {
+    "message": "請輸入過濾器的網址!"
+  },
+  "options_custom_filter_error": {
+    "message": "下載過濾器時發生錯誤!"
+  },
+  "options_last_uodate": {
+    "message": "上次更新"
+  },
+  "options_rate_us": {
+    "message": "為我們評分"
+  },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
+  "badge_windows_ifno": {
+    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
+  },
+  "badge_download_now": {
+    "message": "立即下載"
+  },
+  "badge_learn_more": {
+    "message": "深入瞭解"
+  },
+  "popup_on_this_site": {
+    "message": "在此頁面："
+  },
+  "popup_total": {
+    "message": "總計："
+  },
+  "popup_settings": {
+    "message": "設定"
+  },
+  "popup_share_on_fb": {
+    "message": "分享到 Facebook"
+  },
+  "popup_share_on_twitter": {
+    "message": "在 Twitter 上分享"
+  },
+  "popup_get_abu_windows": {
+    "message": "取得適用於 Windows 的 AdBlocker Ultimate"
+  },
+  "popup_secure_page": {
+    "message": "安全頁面"
+  },
+  "popup_protection_enabled": {
+    "message": "保護：已開啟"
+  },
+  "popup_protection_disabled": {
+    "message": "保護：已關閉"
+  },
+  "options_want_abu_in_lang": {
+    "message": "想要讓 AdBlocker Ultimate 支援你的語言嗎?"
+  },
+  "options_help_translate": {
+    "message": "協助我們翻譯！"
+  },
+  "popup_enabled_on_site": {
+    "message": "在此頁面上啟用"
+  },
+  "popup_disabled_on_site": {
+    "message": "在此頁面上停用"
+  },
+  "popup_curent_tab_blocked": {
+    "message": "已攔截："
+  },
+  "popup_blocked_total": {
+    "message": "總計："
+  },
+  "filter_group_custom_filters": {
+    "message": "自訂過濾器"
+  },
+  "filter_group_ad_blocking": {
+    "message": "廣告攔截"
+  },
+  "filter_group_privacy": {
+    "message": "隱私權"
+  },
+  "filter_group_security": {
+    "message": "安全"
+  },
+  "filter_group_language_specific": {
+    "message": "特定語言"
+  },
+  "filter_name_ultimate_ad_filter": {
+    "message": "终极广告过滤器"
+  },
+  "filter_description_ultimate_ad_filter": {
+    "message": "這是一款效能絕佳的廣告過濾器，用以攔截網路上的任何廣告。這是以 EasyList 過濾器為基礎，並由我們的團隊進一步增強。"
+  },
+  "filter_name_anti_circumvention": {
+    "message": "反規避"
+  },
+  "filter_description_anti_circumvention": {
+    "message": "設計來防範規避廣告的過濾器列表。"
+  },
+  "filter_name_fanboys_annoyance_list": {
+    "message": "Fanboy's 增強過濾列表"
+  },
+  "filter_description_fanboys_annoyance_list": {
+    "message": "使用這款過濾器來遮蔽頁面中惱人的彈出式視窗、Cookie 通知與第三方小工具，能顯著減少頁面載入時間。"
+  },
+  "filter_name_ultimate_privacy_filter": {
+    "message": "終極隱私過濾器"
+  },
+  "filter_description_ultimate_privacy_filter": {
+    "message": "已攔截一個廣泛線上追蹤、計數器和網站分析工具列表。這是以 EasyList 為基礎的隱私列表，並由我們的團隊加以升級。"
+  },
+  "filter_name_fanboys_social_blocking_list": {
+    "message": "Fanboy's 社交媒體攔截列表"
+  },
+  "filter_description_fanboys_social_blocking_list": {
+    "message": "移除社交媒體整合"
+  },
+  "filter_name_ultimate_security_filter": {
+    "message": "終極安全過濾器"
+  },
+  "filter_description_ultimate_security_filter": {
+    "message": "此過濾規則已攔截從廣告軟體引入的廣告。這是以 Easylist's Adware 為基礎的過濾規則，並由我們的團隊加以更新並修正。"
+  },
+  "filter_name_spam404": {
+    "message": "Spam404"
+  },
+  "filter_description_spam404": {
+    "message": "此過濾原則保護你免於受到線上詐騙。過濾原則會定期更新來自 Spam404.com 所收集的資料。"
+  },
+  "filter_name_nocoin": {
+    "message": "NoCoin"
+  },
+  "filter_description_nocoin": {
+    "message": "阻絕瀏覽器中的挖礦行為。"
+  },
+  "filter_name_ruadlist_easylist": {
+    "message": "RuAdList+EasyList"
+  },
+  "filter_description_ruadlist_easylist": {
+    "message": "從俄羅斯文網站上移除廣告。"
+  },
+  "filter_name_easylist_germany_easylist": {
+    "message": "EasyList Germany+EasyList (德文)"
+  },
+  "filter_description_easylist_germany_easylist": {
+    "message": "從德文網站上移除廣告。"
+  },
+  "filter_name_fanboys_japanese": {
+    "message": "Fanboy's Japanese (日文)"
+  },
+  "filter_description_fanboys_japanese": {
+    "message": "從日文網站上移除廣告。"
+  },
+  "filter_name_easylist_dutch_easylist": {
+    "message": "EasyList Dutch + EasyList (荷蘭文)"
+  },
+  "filter_description_easylist_dutch_easylist": {
+    "message": "從荷蘭文網站上移除廣告。"
+  },
+  "filter_name_fanboys_spanish_portuguese": {
+    "message": "Fanboy's 西班牙文/葡萄牙文"
+  },
+  "filter_description_fanboys_spanish_portuguese": {
+    "message": "從西班牙文/葡萄牙文網站上移除廣告。"
+  },
+  "filter_name_fanboys_turkish": {
+    "message": "Fanboy's 土耳其文"
+  },
+  "filter_description_fanboys_turkish": {
+    "message": "從土耳其文網站上移除廣告。"
+  },
+  "filter_name_bulgarian_list": {
+    "message": "保加利亞文列表"
+  },
+  "filter_description_bulgarian_list": {
+    "message": "從保加利亞文網站上移除廣告。"
+  },
+  "filter_name_easylist_china": {
+    "message": "EasyList China (中文)"
+  },
+  "filter_description_easylist_china": {
+    "message": "從中文網站上移除廣告。"
+  },
+  "filter_name_easylist_czech_and_slovak": {
+    "message": "EasyList 捷克文和斯洛伐克文"
+  },
+  "filter_description_easylist_czech_and_slovak": {
+    "message": "從捷克和斯洛伐克網站刪除廣告。"
+  },
+  "filter_name_easylist_italy": {
+    "message": "EasyList Italy (義大利文)"
+  },
+  "filter_description_easylist_italy": {
+    "message": "從義大利文網站上移除廣告。"
+  },
+  "filter_name_latvian_list": {
+    "message": "拉脫維亞文列表"
+  },
+  "filter_description_latvian_list": {
+    "message": "從拉脫維亞文網站上移除廣告。"
+  },
+  "filter_name_adblock_polska": {
+    "message": "Adblock Polska (波蘭文)"
+  },
+  "filter_description_adblock_polska": {
+    "message": "從波蘭文網站上移除廣告。"
+  },
+  "filter_name_estonian_list": {
+    "message": "愛沙尼亞文列表"
+  },
+  "filter_description_estonian_list": {
+    "message": "從愛沙尼亞文網站上移除廣告。"
+  },
+  "filter_name_adblock_persian_list": {
+    "message": "Adblock-Persian list (波斯文)"
+  },
+  "filter_description_adblock_persian_list": {
+    "message": "從波斯文網站上移除廣告。"
+  },
+  "filter_name_fanboys_swedish": {
+    "message": "Fanboy's Swedish (瑞典文)"
+  },
+  "filter_description_fanboys_swedish": {
+    "message": "瑞典文網站上移除廣告。"
+  },
+  "filter_name_fanboys_korean": {
+    "message": "Fanboy's Korean (韓文)"
+  },
+  "filter_description_fanboys_korean": {
+    "message": "從韓文網站上移除廣告。"
+  },
+  "filter_name_fanboys_vietnamese": {
+    "message": "Fanboy's Vietnamese (越南文)"
+  },
+  "filter_description_fanboys_vietnamese": {
+    "message": "從越南文網站上移除廣告。"
+  },
+  "filter_name_hufilter": {
+    "message": "Hufilter - 匈牙利文廣告過濾器列表"
+  },
+  "filter_description_hufilter": {
+    "message": "從匈牙利文網站上移除廣告。"
+  },
+  "filter_name_liste_fr": {
+    "message": "Liste FR"
+  },
+  "filter_description_liste_fr": {
+    "message": "從法文網站上移除廣告。"
+  },
+  "block_even_more_ads": {
+    "message": "攔截更多廣告"
+  },
+  "desktop_app_is_running": {
+    "message": "桌面應用程式正在執行"
+  },
+  "popup_status_inactive": {
+    "message": "過濾未啟動，來避免部份網站功能失效。"
+  },
+  "abu_desktop_info": {
+    "message": "廣告攔截已由 適用於 Windows 的 AdBlocker Ultimate 加以處理。你也可以利用此選單來管理你的白名單，或是手動攔截部分廣告。"
+  },
+  "close": {
+    "message": "關閉"
+  },
+  "yes": {
+    "message": "是"
+  },
+  "no": {
+    "message": "否"
+  },
+  "shield_send_feedback": {
+    "message": "傳送意見回饋"
+  },
+  "shield_email": {
+    "message": "電子郵件"
+  },
+  "shield_tell_how_to_improve": {
+    "message": "請跟我們說該如何改進"
+  },
+  "shield_rate_txt": {
+    "message": "喜愛廣告攔截的成效嗎？協助我們讓更多人了解。"
+  },
+  "shield_sending": {
+    "message": "傳送中…"
+  },
+  "shield_message": {
+    "message": "訊息"
+  },
+  "shield_thank_you": {
+    "message": "謝謝！"
+  },
+  "shield_no_thanks": {
+    "message": "不用了，謝謝"
+  },
+  "shield_do_you_like_abu": {
+    "message": "你喜歡</br>AdBlocker Ultimate 嗎?"
+  }
+}
