@@ -1,0 +1,821 @@
+{
+  "assistant_select_element": {
+    "message": "Виберіть режим"
+  },
+  "assistant_select_element_ext": {
+    "message": "Натисніть на будь-який елемент на сторінці або "
+  },
+  "assistant_select_element_cancel": {
+    "message": "відмініть режим вибору"
+  },
+  "assistant_block_element": {
+    "message": "Елемент блоку"
+  },
+  "assistant_block_element_explain": {
+    "message": "Елемент блокування правила налаштування"
+  },
+  "assistant_extended_settings": {
+    "message": "Додаткові налаштування..."
+  },
+  "assistant_rule_parameters": {
+    "message": "Параметри правил"
+  },
+  "assistant_apply_rule_to_all_sites": {
+    "message": "Застосувати це правило до всіх веб-сайт"
+  },
+  "assistant_block_by_reference": {
+    "message": "Блок елемента за Url-адресою"
+  },
+  "assistant_block_similar": {
+    "message": "Блокувати подібні елементи"
+  },
+  "assistant_block": {
+    "message": "Заблокувати"
+  },
+  "assistant_another_element": {
+    "message": "Виберіть інший елемент"
+  },
+  "assistant_preview": {
+    "message": "Переглянути"
+  },
+  "assistant_preview_start": {
+    "message": "Переглянути"
+  },
+  "assistant_preview_end": {
+    "message": "Закінчити перегляд"
+  },
+  "name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "short_name": {
+    "message": "AdBlocker Ultimate"
+  },
+  "description_blocked": {
+    "message": "Оголошення заблоковані на цій сторінці: $1"
+  },
+  "options_settings": {
+    "message": "AdBlocker Ultimate"
+  },
+  "options_antibanner_info": {
+    "message": "Фільтр правила графа: $1"
+  },
+  "options_whitelist": {
+    "message": "Білий список"
+  },
+  "options_modal_cancel": {
+    "message": "Відмінити"
+  },
+  "options_modal_homepage": {
+    "message": "Домашня сторінка"
+  },
+  "options_userfilter": {
+    "message": "Фільтр користувача"
+  },
+  "options_userfilter_description": {
+    "message": ""
+  },
+  "options_userfilter_add_rule": {
+    "message": "Додати нове правило"
+  },
+  "options_userfilter_export": {
+    "message": "Експорт"
+  },
+  "options_userfilter_import": {
+    "message": "Імпорт"
+  },
+  "options_userfilter_clear": {
+    "message": "Очистити"
+  },
+  "options_userfilter_clear_confirm": {
+    "message": "Очищення фільтра користувач видаляє всі правила. Ви дійсно хочете, щоб очистити фільтр користувача?"
+  },
+  "options_whitelistfilter_clear_confirm": {
+    "message": "Очищення білий список, щоб видалити всі правила. Ви впевнені, що хочете очистити білий список?"
+  },
+  "options_filter_version": {
+    "message": "Версія $1. Останні відомості $2 $ 3."
+  },
+  "options_popup_update_title": {
+    "message": "Фільтри успішно оновлено"
+  },
+  "options_popup_update_not_found": {
+    "message": "Немає оновлень"
+  },
+  "options_popup_update_error": {
+    "message": "Не вдалося отримати оновлення. Будь ласка, спробуйте ще раз пізніше."
+  },
+  "options_popup_update_updated": {
+    "message": "\"$1\" оновлено до версії $2"
+  },
+  "popup_block_site_ads": {
+    "message": "Блокувати рекламу на цьому сайті"
+  },
+  "popup_security_report": {
+    "message": "Звіт про безпеку Веб-сайту"
+  },
+  "popup_open_settings": {
+    "message": "Налаштування AdBlocker Ultimate"
+  },
+  "popup_site_protection_disabled": {
+    "message": "AdBlocker Ultimate захист призупинено"
+  },
+  "popup_site_filtering_state": {
+    "message": "Захист на цьому сайті"
+  },
+  "popup_block_site_ads_android": {
+    "message": "Блокувати рекламу на цьому сайті"
+  },
+  "popup_security_report_android": {
+    "message": "Звіт про захист"
+  },
+  "popup_site_protection_disabled_android": {
+    "message": "Захист призупинено"
+  },
+  "popup_open_log_android": {
+    "message": "Фільтрування журналу"
+  },
+  "popup_tab_blocked": {
+    "message": "Заблоковано: $1"
+  },
+  "popup_tab_blocked_all": {
+    "message": "Всього: $1"
+  },
+  "popup_ads_has_been_removed": {
+    "message": "Оголошення було видалено з цієї сторінки"
+  },
+  "popup_ads_has_been_removed_by_abu": {
+    "message": "Під захистом $1"
+  },
+  "context_block_site_ads": {
+    "message": "Блокувати рекламу на цьому сайті..."
+  },
+  "context_block_site_element": {
+    "message": "Заблокувати елемент..."
+  },
+  "context_abuse_site": {
+    "message": "Подати скаргу про цей сайт..."
+  },
+  "context_ads_has_been_removed": {
+    "message": "Оголошення було видалено з цієї сторінки"
+  },
+  "context_ads_has_been_removed_by_abu": {
+    "message": "Під захистом $1"
+  },
+  "context_site_filtering_disabled": {
+    "message": "AdBlocker Ultimate може не працювати на цьому домені"
+  },
+  "context_site_protection_disabled": {
+    "message": "AdBlocker Ultimate захист призупинено"
+  },
+  "context_open_settings": {
+    "message": "Налаштування AdBlocker Ultimate..."
+  },
+  "context_site_exception": {
+    "message": "Цей сайт знаходиться в винятах"
+  },
+  "context_site_filtering_on": {
+    "message": "Увімкнути фільтрацію на цьому сайті"
+  },
+  "context_site_filtering_off": {
+    "message": "Вимкнути фільтрування на цьому сайті"
+  },
+  "context_update_antibanner_filters": {
+    "message": "Перевірити наявність оновлень"
+  },
+  "alert_popup_filter_enabled_title": {
+    "message": "Фільтри автоматично активовані"
+  },
+  "alert_popup_filter_enabled_text": {
+    "message": "&quot;$1&quot; був активований"
+  },
+  "filter_download_title": {
+    "message": "Завантаження фільтрів бази даних..."
+  },
+  "filter_download_loading": {
+    "message": "Зачекайте, триває завантаження фільтрів бази даних..."
+  },
+  "abu_product_windows": {
+    "message": "AdBlocker Ultimate для Windows"
+  },
+  "abu_product_mac": {
+    "message": "AdBlocker Ultimate для Mac"
+  },
+  "abu_subscribe_confirm_enable": {
+    "message": "AdBlocker Ultimate: ви хочете активувати підписку $1?"
+  },
+  "abu_subscribe_confirm_import": {
+    "message": "AdBlocker Ultimate: ви хочете імпортувати правила $1 для ваших фільтрів?"
+  },
+  "abu_subscribe_confirm_import_finished_title": {
+    "message": "Налаштування успішно імпортовано"
+  },
+  "abu_subscribe_confirm_import_finished_text": {
+    "message": "AdBlocker Ultimate завершено імпортування правил для користувацький фільтрів. Імпортовано правил: $1"
+  },
+  "browser_action_popup_enabled_on_site": {
+    "message": "<strong>Увімкнуто</strong> на цьому сайті"
+  },
+  "browser_action_popup_disabled_on_site": {
+    "message": "<strong>Відключено</strong> на цьому сайті"
+  },
+  "browser_action_popup_on_this_page": {
+    "message": "<strong>$1</strong> на цій сторінці"
+  },
+  "browser_action_popup_in_total": {
+    "message": "<strong>$1</strong> усього"
+  },
+  "browser_action_popup_show_number_in_icon": {
+    "message": "Кількість в зображенні"
+  },
+  "browser_action_popup_options": {
+    "message": "Налаштування"
+  },
+  "browser_action_popup_block_element": {
+    "message": "Елемент блоку"
+  },
+  "browser_action_popup_donate": {
+    "message": "Підтримати"
+  },
+  "browser_action_ads_blocked": {
+    "message": "Оголошення заблоковані"
+  },
+  "options_title": {
+    "message": "Налаштування AdBlocker Ultimate"
+  },
+  "options_filter_list": {
+    "message": "Список фільтрів"
+  },
+  "options_add_your_filters": {
+    "message": "Додати свій власний фільтр"
+  },
+  "options_whitelisted_domains": {
+    "message": "Білий список сайтів"
+  },
+  "options_general": {
+    "message": "Основні"
+  },
+  "options_enable_only": {
+    "message": "Вмикайте лише потрібні списки фільтрів. Їх надлишок може погіршити сприйнятливість переглядача."
+  },
+  "options_out_of_date_lists": {
+    "message": "Застарілі списки періодично оновлюються."
+  },
+  "options_enabled": {
+    "message": "Ввімкнено"
+  },
+  "options_please_choose": {
+    "message": "Будь ласка, виберіть зі списку фільтр підписки:"
+  },
+  "options_add": {
+    "message": "Додати"
+  },
+  "options_subscription_title": {
+    "message": "Назва підписки:"
+  },
+  "options_filter_list_location": {
+    "message": "Розташування списку фільтрів:"
+  },
+  "options_abu_is_disabled": {
+    "message": "AdBlocker Ultimate вимкнуто для доменів, перерахованих нижче. Ви можете додати домен або через значок AdBlocker Ultimate в рядку адреси або шляхом введення домену (не URL-адресу) у вікні і натисніть кнопку \"Додати домен\"."
+  },
+  "options_add_domain": {
+    "message": "Додати домен"
+  },
+  "options_remove_selected": {
+    "message": "Видалити вибрані"
+  },
+  "options_apply_changes": {
+    "message": "Застосувати зміни"
+  },
+  "options_show_block_element": {
+    "message": "Показувати пункт меню \"Заблокувати елемент\" при натисканні правої кнопки миші"
+  },
+  "options_show_useful_notifications": {
+    "message": "Показувати оповіщення"
+  },
+  "options_update_now": {
+    "message": "Оновити зараз"
+  },
+  "options_add_filter_subscription": {
+    "message": "Додати фільтри на підписку"
+  },
+  "options_delete": {
+    "message": "Видалити"
+  },
+  "options_add_filter": {
+    "message": "Додати фільтр"
+  },
+  "assistant_block_element_by_url": {
+    "message": "Блок елемента за Url-адресою"
+  },
+  "description": {
+    "message": "Найкращий інструмент для блокування реклами. Блокуйте рекламу на YouTube, Facebook та інших веб-сайтах безкоштовно!"
+  },
+  "shield_dont_show_again": {
+    "message": "Більше не показувати це повідомлення"
+  },
+  "shield_congrats": {
+    "message": "Вітаю!"
+  },
+  "shield_congratulations": {
+    "message": "Вітаємо!"
+  },
+  "shield_got_no_ads": {
+    "message": "не отримувати рекламні повідомлення завдяки"
+  },
+  "shield_to_unlock": {
+    "message": "щоб розблокувати"
+  },
+  "shield_gold_shield": {
+    "message": "золотий щит"
+  },
+  "shield_silver_shield": {
+    "message": "срібний щит"
+  },
+  "shield_bronze_shield": {
+    "message": "бронзовий щит"
+  },
+  "shield_share_abu": {
+    "message": "Поділитися AdBlocker Ultimate:"
+  },
+  "shield_you_won": {
+    "message": "ви перемогли"
+  },
+  "shield_blocked_ads": {
+    "message": "заблокована реклама"
+  },
+  "shield_rate_us": {
+    "message": "Оцініть нас"
+  },
+  "shield_contribute_to_our_project": {
+    "message": "Сприяти нашому проекту"
+  },
+  "shield_we_blocked_more_than": {
+    "message": "ми заблокували більш ніж $1 оголошень для вас:"
+  },
+  "shield_decreased_your_page_load_time": {
+    "message": "зменшується час завантаження сторінки на $1"
+  },
+  "shield_decreased_peak_cpu_usage": {
+    "message": "зменшити використання процесора комп'ютера на $1"
+  },
+  "shield_decreased_peak_memory_usage": {
+    "message": "зменшилося споживання пам'яті на $1"
+  },
+  "store_ss_no_more_ads": {
+    "message": "Більше ніякої реклами з free adblocker"
+  },
+  "store_ss_surf_faster": {
+    "message": "Переглядай інтернет-сторінки швидше, безпечніше, без настирливої реклами!"
+  },
+  "store_ss_no_more_video_ads": {
+    "message": "Більше ніякої відео реклами"
+  },
+  "store_ss_no_more_facebook_ads": {
+    "message": "Більше ніякої реклами Facebook"
+  },
+  "store_ss_no_more_banner_ads": {
+    "message": "Більше ніяких рекламних банерів"
+  },
+  "store_ss_ads": {
+    "message": "рекламні оголошеня"
+  },
+  "store_ss_surf_faster_with_no_ads": {
+    "message": "Переглядай інтернет-сторінки швидше, безпечніше і БЕЗ РЕКЛАМИ"
+  },
+  "store_ss_surf_and_all_annoying_ads": {
+    "message": "і вся настирлива реклама відсутня!"
+  },
+  "options_check_for_updates": {
+    "message": "Перевірити наявність оновлень"
+  },
+  "filter_rules_count": {
+    "message": "Кількість правил фільтру"
+  },
+  "security": {
+    "message": "Безпека"
+  },
+  "options_language_specific": {
+    "message": "Мовні фільтри"
+  },
+  "options_custom_filters": {
+    "message": "Користувацькі фільтри"
+  },
+  "follow_us": {
+    "message": "Стежте за нами в"
+  },
+  "contact_us": {
+    "message": "Зв'язатися з нами"
+  },
+  "report_bug": {
+    "message": "Повідомити про помилку"
+  },
+  "privacy_policy": {
+    "message": "Політика конфіденційності"
+  },
+  "official_website": {
+    "message": "Офіційний сайт"
+  },
+  "all_rights_reserved": {
+    "message": "Всі права захищено"
+  },
+  "version": {
+    "message": "Версія"
+  },
+  "all_ads_out": {
+    "message": "І вся дратуюча реклама відсутня!"
+  },
+  "options_whitelist_desc": {
+    "message": "Реклама на веб-сайтах, доданих до цього Білого списку, не буде заблокована"
+  },
+  "options_export": {
+    "message": "Експорт"
+  },
+  "options_import": {
+    "message": "Імпорт"
+  },
+  "options_err_import_file": {
+    "message": "Помилка імпорту файлу!"
+  },
+  "options_err_no_txt_file": {
+    "message": "Допустимі лише файли .txt!"
+  },
+  "options_status_saved": {
+    "message": "Збережено"
+  },
+  "options_custom_rules": {
+    "message": "Власні правила"
+  },
+  "options_do_you_like_abu": {
+    "message": "Вам подобається AdBlocker Ultimate?"
+  },
+  "options_editor_desc": {
+    "message": "У цьому списку ви можете додати свої власні користувацькі правила. Створіть свої рекламні фільтри і додайте їх сюди."
+  },
+  "options_number_icon_desc": {
+    "message": "Кількість заблокованих елементів на кожній сторінці буде відображатися в значку розширення."
+  },
+  "options_anti_circumvention_title": {
+    "message": "Увімкнути анти-обхід блокувальника"
+  },
+  "options_anti_circumvention_desc": {
+    "message": "Ця функція бореться з повідомленнями сайтів про використання блокувальників реклами."
+  },
+  "options_auto_activate_lang_filters_title": {
+    "message": "Автоматично вмикати Мовні фільтри"
+  },
+  "options_auto_activate_lang_filters_desc": {
+    "message": "Після відкриття кількох сторінок на мові фільтри для цієї мови будуть автоматично додані та активовані."
+  },
+  "options_about": {
+    "message": "Про додаток"
+  },
+  "options_filters_updated": {
+    "message": "оновлено"
+  },
+  "options_filters": {
+    "message": "Фільтри"
+  },
+  "options_filters_enabled": {
+    "message": "Увімкнено:"
+  },
+  "options_filters_enabled_and_more": {
+    "message": "$1 і $2 більше"
+  },
+  "options_no_filters_enabled": {
+    "message": "Немає увімкнених фільтрів"
+  },
+  "options_filter_status_all": {
+    "message": "Усі"
+  },
+  "options_filter_status_disable": {
+    "message": "Вимкнено"
+  },
+  "options_search": {
+    "message": "Пошук"
+  },
+  "options_clear_filter": {
+    "message": "Очистити фільтр"
+  },
+  "options_confirm_filter_delete": {
+    "message": "Ви впевнені, що бажаєте видалити цей фільтр?"
+  },
+  "options_custom": {
+    "message": "Власний"
+  },
+  "options_no_custom_filters": {
+    "message": "Вибачте, але у вас ще немає власних фільтрів"
+  },
+  "options_submit": {
+    "message": "Продовжити"
+  },
+  "options_enter_url_or_path": {
+    "message": "Введіть дійсний URL або шлях до файлу"
+  },
+  "options_new_filter": {
+    "message": "Новий фільтр"
+  },
+  "options_custom_filter_already_add": {
+    "message": "Фільтр з таким URL вже існує!"
+  },
+  "options_add_custom_filter": {
+    "message": "Додати власний фільтр"
+  },
+  "options_custom_filter_empty_url": {
+    "message": "Будь ласка, введіть URL фільтра!"
+  },
+  "options_custom_filter_error": {
+    "message": "Помилка завантаження фільтру!"
+  },
+  "options_last_uodate": {
+    "message": "Останнє оновлення"
+  },
+  "options_rate_us": {
+    "message": "Оцініть нас"
+  },
+  "options_enable_context_menu_title": {
+    "message": "Увімкнути контекстне меню"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Активує меню дій при натисканні правої кнопки на веб-сторінку."
+  },
+  "badge_windows_ifno": {
+    "message": "Блокування реклами та онлайн трекерів у всіх програмах Windows."
+  },
+  "badge_download_now": {
+    "message": "Звантажити зараз"
+  },
+  "badge_learn_more": {
+    "message": "Докладніше"
+  },
+  "popup_on_this_site": {
+    "message": "на цьому сайті:"
+  },
+  "popup_total": {
+    "message": "Всього:"
+  },
+  "popup_settings": {
+    "message": "Налаштування"
+  },
+  "popup_share_on_fb": {
+    "message": "Поширити у Facebook"
+  },
+  "popup_share_on_twitter": {
+    "message": "Поширити у Twitter"
+  },
+  "popup_get_abu_windows": {
+    "message": "Отримати AdBlocker Ultimate для Windows"
+  },
+  "popup_secure_page": {
+    "message": "Безпечна сторінка"
+  },
+  "popup_protection_enabled": {
+    "message": "Захист: Увімкнений"
+  },
+  "popup_protection_disabled": {
+    "message": "Захист: Вимкнений"
+  },
+  "options_want_abu_in_lang": {
+    "message": "Хочете AdBlocker Ultimate своєю мовою?"
+  },
+  "options_help_translate": {
+    "message": "Допоможіть нам з перекладом!"
+  },
+  "popup_enabled_on_site": {
+    "message": "Увімкнено на цьому сайті"
+  },
+  "popup_disabled_on_site": {
+    "message": "Вимкнуто на цьому сайті"
+  },
+  "popup_curent_tab_blocked": {
+    "message": "Заблоковано:"
+  },
+  "popup_blocked_total": {
+    "message": "Всього:"
+  },
+  "filter_group_custom_filters": {
+    "message": "Користувацькі фільтри"
+  },
+  "filter_group_ad_blocking": {
+    "message": "Блокування реклами"
+  },
+  "filter_group_privacy": {
+    "message": "Конфіденційність"
+  },
+  "filter_group_security": {
+    "message": "Безпека"
+  },
+  "filter_group_language_specific": {
+    "message": "Мовні фільтри"
+  },
+  "filter_name_ultimate_ad_filter": {
+    "message": "Ultimate Ad Filter"
+  },
+  "filter_description_ultimate_ad_filter": {
+    "message": "Це кращий фільтр все в одному, який блокує рекламу по всьому Інтернету. Він заснований на EasyList фільтрі і додатково поліпшений нашою командою."
+  },
+  "filter_name_anti_circumvention": {
+    "message": "Анти-обхід блокувальника"
+  },
+  "filter_description_anti_circumvention": {
+    "message": "Список фільтрів призначений для боротьби з повідомленнями сайтів про використання блокувальників реклами."
+  },
+  "filter_name_fanboys_annoyance_list": {
+    "message": "Fanboy's Annoyance List"
+  },
+  "filter_description_fanboys_annoyance_list": {
+    "message": "Блокує всі дратуючі спливаючі вікна на сторінці, повідомлення про куки та віджети сторонніх сайтів, що суттєво зменшить час завантаження сторінки, отже, використовуйте цей фільтр і заблокуйте їх усі!."
+  },
+  "filter_name_ultimate_privacy_filter": {
+    "message": "Ultimate Privacy Filter"
+  },
+  "filter_description_ultimate_privacy_filter": {
+    "message": "Блокує розширений список різних онлайн трекерів, лічильників і інструментів веб-аналітики. Базується на основі списку EasyList Privacy та доповнюється нашою командою."
+  },
+  "filter_name_fanboys_social_blocking_list": {
+    "message": "Fanboy's Social Blocking List"
+  },
+  "filter_description_fanboys_social_blocking_list": {
+    "message": "Видаляє інтеграцію із соціальними мережами"
+  },
+  "filter_name_ultimate_security_filter": {
+    "message": "Ultimate Security Filter"
+  },
+  "filter_description_ultimate_security_filter": {
+    "message": "Цей фільтр блокує вкладену рекламу. Базується на фільтрах Adware Easylist, які й надалі оновлюються та модифікуються нашою командою."
+  },
+  "filter_name_spam404": {
+    "message": "Spam404"
+  },
+  "filter_description_spam404": {
+    "message": "Цей фільтр захищає вас від онлайн-скамів. Він регулярно оновлюється даними, зібраними на сайті Spam404.com."
+  },
+  "filter_name_nocoin": {
+    "message": "NoCoin"
+  },
+  "filter_description_nocoin": {
+    "message": "Зупиняє криптомайнінг у Вашому браузері."
+  },
+  "filter_name_ruadlist_easylist": {
+    "message": "RuAdList+EasyList"
+  },
+  "filter_description_ruadlist_easylist": {
+    "message": "Видаляє рекламу з російських сайтів."
+  },
+  "filter_name_easylist_germany_easylist": {
+    "message": "EasyList Germany+EasyList"
+  },
+  "filter_description_easylist_germany_easylist": {
+    "message": "Видаляє рекламу з німецьких веб-сайтів."
+  },
+  "filter_name_fanboys_japanese": {
+    "message": "Fanboy's Japanese"
+  },
+  "filter_description_fanboys_japanese": {
+    "message": "Видаляє рекламу з японських сайтів."
+  },
+  "filter_name_easylist_dutch_easylist": {
+    "message": "EasyList Dutch + EasyList"
+  },
+  "filter_description_easylist_dutch_easylist": {
+    "message": "Видаляє рекламу з голландських сайтів."
+  },
+  "filter_name_fanboys_spanish_portuguese": {
+    "message": "Fanboy's Spanish/Portuguese"
+  },
+  "filter_description_fanboys_spanish_portuguese": {
+    "message": "Видаляє рекламу з іспанських/португальських веб-сайтів."
+  },
+  "filter_name_fanboys_turkish": {
+    "message": "Fanboy's Turkish"
+  },
+  "filter_description_fanboys_turkish": {
+    "message": "Видаляє рекламу з турецьких веб-сайтів."
+  },
+  "filter_name_bulgarian_list": {
+    "message": "Bulgarian list"
+  },
+  "filter_description_bulgarian_list": {
+    "message": "Видаляє рекламу з болгарських веб-сайтів."
+  },
+  "filter_name_easylist_china": {
+    "message": "EasyList China"
+  },
+  "filter_description_easylist_china": {
+    "message": "Видаляє рекламу з китайських веб-сайтів."
+  },
+  "filter_name_easylist_czech_and_slovak": {
+    "message": "EasyList Czech and Slovak"
+  },
+  "filter_description_easylist_czech_and_slovak": {
+    "message": "Видаляє рекламу з чеських і словацьких веб-сайтів."
+  },
+  "filter_name_easylist_italy": {
+    "message": "EasyList Italy"
+  },
+  "filter_description_easylist_italy": {
+    "message": "Видаляє рекламу з італійських веб-сайтів."
+  },
+  "filter_name_latvian_list": {
+    "message": "Latvian List"
+  },
+  "filter_description_latvian_list": {
+    "message": "Видаляє рекламу з латвійських веб-сайтів."
+  },
+  "filter_name_adblock_polska": {
+    "message": "Adblock Polska"
+  },
+  "filter_description_adblock_polska": {
+    "message": "Прибирає рекламу з польських веб-сайтів."
+  },
+  "filter_name_estonian_list": {
+    "message": "Estonian List"
+  },
+  "filter_description_estonian_list": {
+    "message": "Видаляє рекламу з естонських веб-сайтів."
+  },
+  "filter_name_adblock_persian_list": {
+    "message": "Adblock-Persian list"
+  },
+  "filter_description_adblock_persian_list": {
+    "message": "Видаляє рекламу з перських сайтів."
+  },
+  "filter_name_fanboys_swedish": {
+    "message": "Fanboy's Swedish"
+  },
+  "filter_description_fanboys_swedish": {
+    "message": "Видаляє рекламу зі шведських сайтів."
+  },
+  "filter_name_fanboys_korean": {
+    "message": "Fanboy's Korean"
+  },
+  "filter_description_fanboys_korean": {
+    "message": "Видаляє рекламу з корейських сайтів."
+  },
+  "filter_name_fanboys_vietnamese": {
+    "message": "Fanboy's Vietnamese"
+  },
+  "filter_description_fanboys_vietnamese": {
+    "message": "Видаляє рекламу з в'єтнамських сайтів."
+  },
+  "filter_name_hufilter": {
+    "message": "Hufilter - The Hungarian Adblock List"
+  },
+  "filter_description_hufilter": {
+    "message": "Видаляє рекламу з угорських сайтів."
+  },
+  "filter_name_liste_fr": {
+    "message": "Список FR"
+  },
+  "filter_description_liste_fr": {
+    "message": "Видаляє рекламу з французьких сайтів."
+  },
+  "block_even_more_ads": {
+    "message": "Блокувати навіть більше реклами"
+  },
+  "desktop_app_is_running": {
+    "message": "Настільний додаток працює"
+  },
+  "popup_status_inactive": {
+    "message": "Фільтрування неактивне, щоб уникнути можливої поломки сайту."
+  },
+  "abu_desktop_info": {
+    "message": "Блокування реклами обробляється Adblocker Ultimate для Windows. Проте ви все ще можете використовувати це меню для управління вашим білий списком або вручну заблокувати певну рекламу."
+  },
+  "close": {
+    "message": "Закрити"
+  },
+  "yes": {
+    "message": "Так"
+  },
+  "no": {
+    "message": "Ні"
+  },
+  "shield_send_feedback": {
+    "message": "Надіслати відгук"
+  },
+  "shield_email": {
+    "message": "Адреса електронної пошти"
+  },
+  "shield_tell_how_to_improve": {
+    "message": "Розкажіть нам, як ми можемо стати краще"
+  },
+  "shield_rate_txt": {
+    "message": "Насолоджуйтесь блокуванням реклами? Допоможіть іншим дізнатися про нас."
+  },
+  "shield_sending": {
+    "message": "Надсилається..."
+  },
+  "shield_message": {
+    "message": "Повідомлення"
+  },
+  "shield_thank_you": {
+    "message": "Дякую!"
+  },
+  "shield_no_thanks": {
+    "message": "Ні, дякую"
+  },
+  "shield_do_you_like_abu": {
+    "message": "Вам подобається</br> AdBlocker Ultimate?"
+  }
+}

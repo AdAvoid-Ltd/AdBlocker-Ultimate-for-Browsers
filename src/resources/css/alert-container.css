@@ -1,0 +1,17 @@
+/**
+ * Styles for alert popup container.
+ * Injected into web page to position the alert container.
+ */
+
+.alert-iframe {
+    width: 100%;
+    border: none;
+    position: fixed;
+    z-index: 1000;
+    top: 16px;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    color-scheme: light dark;
+    visibility: hidden;
+}

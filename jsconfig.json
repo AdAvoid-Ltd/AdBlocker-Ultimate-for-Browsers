@@ -1,0 +1,10 @@
+{
+    "extends": "./jsconfig.base.json",
+    "include": [
+        "postcss.config.js",
+        "tools/",
+        "src/",
+        "src/pages",
+        ".eslintrc.cjs",
+    ]
+}

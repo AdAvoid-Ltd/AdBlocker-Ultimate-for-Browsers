@@ -1,8 +1,0 @@
-[AdBlocker Ultimate]
-! Version: 202310280100
-! Title: Anti-circumvention Filter
-! Last modified: 28 Oct 2023 01:00 UTC
-! Expires: 1 days (update frequency)
-! Homepage: https://adblockultimate.net/
-! About: https://adblockultimate.net/filters
-! License: https://adblockultimate.net/filters
